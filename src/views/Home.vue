@@ -1,24 +1,15 @@
 <template>
-  <hello-world />
+  <blog-posts />
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
+  import BlogPosts from '../components/BlogPosts'
 
   export default {
     name: 'Home',
 
     components: {
-      HelloWorld,
+      BlogPosts,
     },
   }
-</script>
-loWorld from '@/components/HelloWorld.vue'
-
-export default {
-  name: 'home',
-  components: {
-    HelloWorld
-  }
-}
 </script>
